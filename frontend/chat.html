@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Kare - Healthcare Assistant</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <a href="index.html" class="logo">Kare</a>
+                <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#" class="sidebar-link">New Chat</a></li>
+                <li><a href="#" class="sidebar-link">History</a></li>
+                <li><a href="#" class="sidebar-link">Settings</a></li>
+                <li><a href="index.html" class="sidebar-link">Back to Home</a></li>
+            </ul>
+        </div>
+        <!-- Chat Section -->
+        <section class="chat-fullscreen-section">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="chat-avatar">K</div>
+                    <div>
+                        <h3 style="margin: 0; font-size: 1.1rem;">Kare Healthcare Assistant</h3>
+                        <p style="margin: 0; opacity: 0.8; font-size: 0.9rem;">Online • Ready to help</p>
+                    </div>
+                </div>
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot">
+                        <p>Hello! I'm Kare, your AI healthcare assistant. I'm here to help answer your health questions and provide general medical guidance. How can I assist you today?</p>
+                        <small style="opacity: 0.7; font-size: 0.8rem;">Please note: I provide general health information and should not replace professional medical advice.</small>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <input type="text" class="chat-input" id="messageInput" placeholder="Type your health question here..." maxlength="500">
+                    <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22,2 15,22 11,13 2,9"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
+
+    <script src="assets/js/chat.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+            </div>
+        </section>
+    </div>

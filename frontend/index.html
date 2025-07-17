@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kare - Your Trusted Healthcare Chatbot</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Kare</a>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Services</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+                <li><a href="chat.html" class="btn-primary">Start Chat</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content fade-in-up">
+                <h1>Kare</h1>
+                <p class="subtitle">Your AI Healthcare Assistant</p>
+                <h2>A dedicated healthcare companion you can trust</h2>
+                <p>Get instant medical guidance, health tips, and personalized care recommendations from our advanced AI healthcare assistant. Available 24/7 to support your wellness journey.</p>
+                <a href="chat.html" class="btn-primary">
+                    💬 Start Consultation
+                </a>
+            </div>
+            <div class="hero-image fade-in-up">
+                <img src="assets/images/doctors.png" alt="Healthcare professionals" />
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="features-container">
+            <div class="features-grid">
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon">🕐</div>
+                    <h3>24 hour service</h3>
+                    <p>Get healthcare support anytime, anywhere. Our AI assistant is available round the clock to answer your health questions.</p>
+                </div>
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Expert knowledge</h3>
+                    <p>Trained on vast medical databases and latest healthcare research to provide accurate and reliable health information.</p>
+                </div>
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon">❤️</div>
+                    <h3>Personalized care</h3>
+                    <p>Tailored health recommendations based on your symptoms, medical history, and personal health goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="features" style="background: #f8fafc;">
+        <div class="features-container text-center">
+            <h2 style="color: var(--dark-blue); font-size: 2.5rem; margin-bottom: 1rem;">Why Choose Kare?</h2>
+            <p style="color: var(--medium-gray); font-size: 1.2rem; max-width: 600px; margin: 0 auto 3rem;">
+                Kare combines cutting-edge AI technology with medical expertise to provide you with reliable healthcare guidance whenever you need it.
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
+                <div style="background: white; padding: 2rem; border-radius: 16px; box-shadow: var(--shadow);">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🔒</div>
+                    <h3 style="color: var(--dark-blue); margin-bottom: 1rem;">Secure & Private</h3>
+                    <p style="color: var(--medium-gray);">Your health information is protected with enterprise-grade security and privacy measures.</p>
+                </div>
+                
+                <div style="background: white; padding: 2rem; border-radius: 16px; box-shadow: var(--shadow);">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
+                    <h3 style="color: var(--dark-blue); margin-bottom: 1rem;">Instant Responses</h3>
+                    <p style="color: var(--medium-gray);">Get immediate answers to your health questions without waiting for appointments.</p>
+                </div>
+                
+                <div style="background: white; padding: 2rem; border-radius: 16px; box-shadow: var(--shadow);">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🌟</div>
+                    <h3 style="color: var(--dark-blue); margin-bottom: 1rem;">Easy to Use</h3>
+                    <p style="color: var(--medium-gray);">Simple, intuitive interface designed for users of all ages and technical backgrounds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="hero" style="padding: 60px 0;">
+        <div class="container text-center">
+            <h2 style="color: var(--dark-blue); font-size: 2.5rem; margin-bottom: 1rem;">Ready to Start Your Health Journey?</h2>
+            <p style="color: var(--medium-gray); font-size: 1.2rem; margin-bottom: 2rem;">
+                Join thousands of users who trust Kare for their healthcare needs.
+            </p>
+            <a href="chat.html" class="btn-primary" style="font-size: 1.1rem; padding: 1rem 2rem;">
+                💬 Start Chatting Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: var(--dark-blue); color: white; padding: 3rem 0 2rem;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div>
+                    <div class="logo" style="color: white; margin-bottom: 1rem;">Kare</div>
+                    <p style="opacity: 0.8;">Your trusted AI healthcare companion, providing reliable medical guidance and support 24/7.</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1rem;">Quick Links</h4>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Home</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">About</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Services</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="chat.html" style="color: white; text-decoration: none; opacity: 0.8;">Chat</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1rem;">Support</h4>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Help Center</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Privacy Policy</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Terms of Service</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 2rem; text-align: center; opacity: 0.8;">
+                <p>&copy; 2024 Kare. All rights reserved. | Disclaimer: This AI assistant provides general health information and should not replace professional medical advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
